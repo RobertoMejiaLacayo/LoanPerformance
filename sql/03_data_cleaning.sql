@@ -29,4 +29,5 @@ recoveries,
 sub_grade,
 term_months,
 total_pymnt
-FROM `lending_club_raw.loans_clean`;
+FROM `lending_club_raw.loans_clean`
+WHERE issue_date IS NOT NULL;
