@@ -1,5 +1,6 @@
 CREATE OR REPLACE TABLE `lending_club_raw.loans_clean` AS
 SELECT
+ `id`                                              AS id,
  SAFE_CAST(`loan_amnt` AS FLOAT64)                 AS loan_amnt,
  SAFE_CAST(`funded_amnt` AS FLOAT64)               AS funded_amnt,
  SAFE_CAST(REPLACE(`int_rate`, '%', '') AS FLOAT64) AS int_rate_pct,
