@@ -14,5 +14,6 @@ SELECT
  SAFE_CAST(`dti` AS FLOAT64)                       AS dti,
  `loan_status`                                     AS loan_status,
  SAFE_CAST(`total_pymnt` AS FLOAT64)               AS total_pymnt,
- SAFE_CAST(`recoveries` AS FLOAT64)                AS recoveries
+ SAFE_CAST(`recoveries` AS FLOAT64)                AS recoveries,
+ SAFE_CAST(`last_pymnt_d` AS FLOAT64)              AS last_payment_date
 FROM `lending_club_raw.loans`;
