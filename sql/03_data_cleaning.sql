@@ -9,6 +9,7 @@ grade,
 home_ownership,
 issue_date,
 int_rate_pct,
+last_payment_date
 loan_amnt,
 loan_status, -- keeping the original for ease of reference
 CASE
