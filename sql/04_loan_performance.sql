@@ -12,6 +12,7 @@ SELECT
   outcome_category,
   
   -- BORROWER CHARACTERISTICS (later segmentation)
+  annual_inc,
   dti,
   emp_length,
   home_ownership,
