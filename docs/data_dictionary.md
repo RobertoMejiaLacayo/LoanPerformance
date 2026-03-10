@@ -1,11 +1,10 @@
 # This project’s version of the Lending Club dataset dictionary
-Derived from 00_sql_data_dictionary.sql
 
 ## Dataset Overview
 - **Source:** Kaggle - Lending Club Loan Data
 - **Rows:** 2,260,669 loans
 - **Columns:** 15 fields
-- **Time Period:** 2007-2015
+- **Time Period:** 2007-2017
 - **Last Updated:** Jan 31 2026
 
 ## Key Fields
