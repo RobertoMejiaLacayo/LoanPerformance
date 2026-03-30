@@ -65,4 +65,4 @@ The **LendingClub Loan Performance Dashboard** is a 5-page interactive visualiza
 
 ---
 
-**For technical details, see [Methodology](../docs/methodology.md)**
+**For technical details, see [Methodology](docs/methodology.md)**
